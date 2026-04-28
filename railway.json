@@ -1,8 +1,8 @@
 {
   "build": {
-    "builder": "NIXPACKS"
+    "builder": "RAILPACK"
   },
   "deploy": {
-    "startCommand": "gunicorn playto.wsgi"
+    "startCommand": "cd playto && gunicorn playto.wsgi"
   }
 }
