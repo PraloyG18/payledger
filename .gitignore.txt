@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Django
+.env
+
+# Node
+node_modules/
+dist/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
