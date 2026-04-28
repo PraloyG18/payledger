@@ -3,6 +3,6 @@
     "builder": "RAILPACK"
   },
   "deploy": {
-    "startCommand": "cd playto && gunicorn playto.wsgi"
+    "startCommand": "cd playto && gunicorn playto.wsgi:application --bind 0.0.0.0:$PORT"
   }
 }
